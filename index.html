@@ -6,11 +6,73 @@
 
     </head>
     <body>
-        <h1>
-            Hola mundooo!!!!
-        </h1>
-        <h2>esto es una prueba</h2>
-        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Jorge Bulzomi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" href="https://google.com">Licencias</a>
+                  <a class="nav-link" href="#">Permisos</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="tipolicencia" class="form-label">tipo de licencia</label>
+                            <input type="text" class="form-control" id="tipolicencia" placeholder="Escriba aqui">
+                          </div>
+                          <div class="mb-3">
+                            <label for="cantdias" class="form-label">Ingrese cantidad</label>
+                            <input type="number" class="form-control" id="cantdias" rows="3">
+                          </div>
+                    </form>
+                    <button class="btn btn-success">Guardar</button>
+                    <button class="btn btn-secondary">Borrar</button>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <h2>Licencias</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>tipo de licencia</th>
+                                <th>cantidad de días</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Ordinaria</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Estres</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Artículo</td>
+                                <td>4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h1>Hola mundooo!!!!</h1>
+                </div>                
+            </div>
+        </div>
+
     </body>
     
 </html>
